@@ -1,0 +1,31 @@
+{
+  "name": "counter-test",
+  "type": "module",
+  "version": "0.0.1",
+  "scripts": {
+    "dev": "astro dev",
+    "start": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview",
+    "astro": "astro"
+  },
+  "dependencies": {
+    "@astrojs/svelte": "^2.2.0",
+    "astro": "^2.5.1",
+    "svelte": "^3.59.1"
+  },
+  "devDependencies": {
+    "eslint-plugin-astro": "^0.27.0",
+    "standard": "^17.0.0"
+  },
+  "eslintConfig": {
+    "extends": [
+      "./node_modules/standard/eslintrc.json",
+      "plugin:astro/recommended"
+    ],
+    "rules": {
+      "no-unused-vars": "warn",
+      "space-before-function-paren": "off"
+    }
+  }
+}
